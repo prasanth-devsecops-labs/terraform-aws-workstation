@@ -19,7 +19,7 @@ Terraform project to provision an AWS EC2 workstation pre-configured with DevOps
 
 ---
 
-## Prerequisites (Windows Laptop)
+## Prerequisites
 
 1. **Terraform** — [Download](https://developer.hashicorp.com/terraform/downloads) and add to `PATH`
    - Verify: `terraform -version`
