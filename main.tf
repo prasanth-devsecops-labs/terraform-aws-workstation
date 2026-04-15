@@ -38,6 +38,7 @@ resource "terraform_data" "cluster_destroy" {
     inline = [
       "eksctl delete cluster -f /home/ec2-user/eksctl/eks.yaml --wait"
     ]
+    # on_failure = continue
     connection {
       type     = "ssh"
       host     = self.input.host
